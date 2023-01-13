@@ -1,6 +1,6 @@
 package com.driver;
 
-class Main {
+public class Main {
     public static void main(String[] args) {
         Product p = new Product();
         int result1 = p.product(2, 3);
@@ -12,7 +12,7 @@ class Main {
     }
 }
 
-class Product {
+public static class Product {
     public int product(int x, int y) {
         return x * y;
     }
